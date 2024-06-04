@@ -27,7 +27,11 @@ function App() {
             </section>
 
 
+            {
+                menu == 1 &&
 
+                <>
+                
             <section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-10 mx-auto">
         <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
@@ -70,9 +74,9 @@ function App() {
                 </div>
             </div>
 
-            <div class="p-8 border rounded-lg dark:border-gray-700">
+            <div class="p-8 border rounded-lg dark:border-gray-700" style={{alignContent: 'flex-end'}}>
                 <p class="leading-loose text-gray-500 dark:text-gray-400">
-                Estos testimonios destacan diferentes aspectos positivos de una aplicación de mensajería, como la facilidad de uso, la funcionalidad para negocios, la seguridad y características innovadoras como los mensajes temporales.
+                Soy dueña de una pequeña empresa y esta aplicación de mensajería ha revolucionado la forma en que me comunico con mi equipo. Las funciones de chat grupal y las llamadas de voz y video son esenciales para nuestras reuniones diarias. También aprecio la seguridad que ofrece, con cifrado de extremo a extremo, lo que me da tranquilidad al compartir información confidencial. ¡Un producto increíble!
                 </p>
 
                 <div class="flex items-center mt-8 -mx-2">
@@ -221,6 +225,11 @@ function App() {
         </div>
     </div>
 </section>
+                </>
+            }
+
+
+
 
 
 <footer class="bg-white dark:bg-gray-900">

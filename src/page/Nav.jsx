@@ -25,15 +25,12 @@ function Nav({setMenu}) {
 
         <div className="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white shadow-md lg:bg-transparent lg:dark:bg-transparent lg:shadow-none dark:bg-gray-900 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center">
             <div className="flex flex-col space-y-4 lg:mt-0 lg:flex-row lg:space-y-0">
-                <a className="text-gray-700 lg:mx-6 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500" href="#" onClick={()=>setMenu(1)}>Home</a> 
+                <a className="text-gray-700 lg:mx-6 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500" href="#" onClick={()=>setMenu(1)}>Principal</a> 
                 <a className="text-gray-700 lg:mx-6 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500" href="#"  onClick={()=>setMenu(2)}>Precios</a>
-                <a className="text-gray-700 lg:mx-6 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500" href="#"  onClick={()=>setMenu(4)}>FAQ</a>
-                <a className="text-gray-700 lg:mx-6 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500" href="#"  onClick={()=>setMenu(3)}>Contacto</a>
+                <a className="text-gray-700 lg:mx-6 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500" href="#"  onClick={()=>setMenu(4)}>Pregunta frecuentes</a>
+                <a className="text-gray-700 lg:mx-6 dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500" href="#"  onClick={()=>setMenu(3)}>Contactos</a>
             </div>
-
-            <a className="block h-10 px-5 py-2 mt-4 text-sm text-center text-gray-700 capitalize transition-colors duration-300 transform border rounded-md dark:hover:bg-gray-700 dark:text-white lg:mt-0 hover:bg-gray-100 lg:w-auto" href="#">
-                Registrar
-            </a>
+ 
         </div>
     </nav>
   );
