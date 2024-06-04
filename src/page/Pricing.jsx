@@ -8,7 +8,7 @@ function Pricing() {
         <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Plan de precios sencillo</h1>
 
         <p class="max-w-2xl mx-auto mt-4 text-center text-gray-500 xl:mt-6 dark:text-gray-300">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quas magni libero consequuntur voluptatum velit amet id repudiandae ea, deleniti laborum in neque eveniet.
+            Tu solución de mensajería rápida y segura. Regístrate hoy y únete a millones de usuarios satisfechos en todo el mundo.
         </p>
 
         <div class="grid grid-cols-1 gap-8 mt-6 lg:grid-cols-3 xl:mt-12">
@@ -84,7 +84,7 @@ function Pricing() {
             </div>
 
             <div class="flex items-center justify-between text-gray-800 dark:text-gray-200">
-                <p class="textlg sm:text-xl">Full Support with discussion</p>
+                <p class="textlg sm:text-xl">Soporte prioritario 24/7</p>
 
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500 sm:h-7 sm:w-7" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -92,7 +92,7 @@ function Pricing() {
             </div>
 
             <div class="flex items-center justify-between text-gray-800 dark:text-gray-200">
-                <p class="textlg sm:text-xl">Optimize hashtags</p>
+                <p class="textlg sm:text-xl">Acceso a temas exclusivos y opciones de personalización</p>
 
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-red-400 sm:h-7 sm:w-7" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M13.477 14.89A6 6 0 015.11 6.524l8.367 8.368zm1.414-1.414L6.524 5.11a6 6 0 018.367 8.367zM18 10a8 8 0 11-16 0 8 8 0 0116 0z" clip-rule="evenodd" />
@@ -100,7 +100,7 @@ function Pricing() {
             </div>
 
             <div class="flex items-center justify-between text-gray-800 dark:text-gray-200">
-                <p class="textlg sm:text-xl">Mobile app</p>
+                <p class="textlg sm:text-xl">Integración con otras aplicaciones y servicios empresariales</p>
 
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500 sm:h-7 sm:w-7" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -108,7 +108,7 @@ function Pricing() {
             </div>
 
             <div class="flex items-center justify-between text-gray-800 dark:text-gray-200">
-                <p class="textlg sm:text-xl">Unlimited users</p>
+                <p class="textlg sm:text-xl">Administración de usuarios y permisos de acceso</p>
 
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-red-400 sm:h-7 sm:w-7" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M13.477 14.89A6 6 0 015.11 6.524l8.367 8.368zm1.414-1.414L6.524 5.11a6 6 0 018.367 8.367zM18 10a8 8 0 11-16 0 8 8 0 0116 0z" clip-rule="evenodd" />

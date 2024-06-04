@@ -9,7 +9,7 @@ import Nav from './page/Nav';
 
 function App() {
 
-  const [ menu, setMenu ] = useState(3);
+  const [ menu, setMenu ] = useState(1);
   return (
     <div className="App">
           <section className="bg-white dark:bg-gray-900">
@@ -42,9 +42,7 @@ function App() {
         <section class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3">
             <div class="p-8 border rounded-lg dark:border-gray-700">
                 <p class="leading-loose text-gray-500 dark:text-gray-400">
-                    “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
-                    tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
-                    aperiam dolorum, obcaecati corrupti aspernatur a.”.
+                "Desde que empecé a usar esta aplicación de mensajería, mi vida se ha vuelto mucho más fácil. La interfaz es intuitiva y me encanta cómo puedo enviar mensajes, fotos y videos con rapidez y sin problemas. Además, las opciones de personalización son fantásticas; puedo cambiar los temas y los tonos de notificación según mi estado de ánimo. Definitivamente, la recomendaría a cualquiera que busque una aplicación de mensajería confiable y completa.
                 </p>
 
                 <div class="flex items-center mt-8 -mx-2">
@@ -59,9 +57,7 @@ function App() {
 
             <div class="p-8 border rounded-lg dark:border-gray-700">
                 <p class="leading-loose text-gray-500 dark:text-gray-400">
-                    “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
-                    tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
-                    aperiam dolorum, obcaecati corrupti aspernatur a.”.
+                    “Lo que más me gusta de esta aplicación de mensajería es la función de mensajes temporales. Puedo enviar mensajes que se autodestruyen después de un tiempo, lo cual es perfecto para conversaciones privadas. También me gusta mucho la integración con otras aplicaciones y servicios, lo que me permite compartir archivos y enlaces de manera más eficiente. En general, es una herramienta indispensable en mi vida diaria.”.
                 </p>
 
                 <div class="flex items-center mt-8 -mx-2">
@@ -76,9 +72,7 @@ function App() {
 
             <div class="p-8 border rounded-lg dark:border-gray-700">
                 <p class="leading-loose text-gray-500 dark:text-gray-400">
-                    “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
-                    tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
-                    aperiam dolorum, obcaecati corrupti aspernatur a.”.
+                Estos testimonios destacan diferentes aspectos positivos de una aplicación de mensajería, como la facilidad de uso, la funcionalidad para negocios, la seguridad y características innovadoras como los mensajes temporales.
                 </p>
 
                 <div class="flex items-center mt-8 -mx-2">
@@ -117,7 +111,7 @@ function App() {
             <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
                 <img class="object-cover w-full rounded-xl aspect-square" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
 
-                <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">arthur melo</h1>
+                <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Miguel Angel Moreno</h1>
 
                 <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">design director</p>
 
@@ -154,7 +148,7 @@ function App() {
             <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
                 <img class="object-cover w-full rounded-xl aspect-square" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
 
-                <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Pamela Anderson</h1>
+                <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Luis Felipe Perdomo</h1>
 
                 <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">Lead Developer</p>
 
@@ -191,7 +185,7 @@ function App() {
             <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
                 <img class="object-cover w-full rounded-xl aspect-square" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
 
-                <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">John Doe</h1>
+                <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Juan Sebastian Murcia</h1>
 
                 <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">Full stack developer</p>
 
