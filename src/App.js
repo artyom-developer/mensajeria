@@ -31,6 +31,36 @@ function App() {
                 menu == 1 &&
 
                 <>
+
+
+<div class="lg:flex">
+        <div class="flex items-center justify-center w-full px-6 py-8 lg:h-[32rem] lg:w-1/2">
+            <div class="max-w-xl">
+                <h2 class="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">¡Descubre la Nueva Experiencia con Nuestra  <span class="text-blue-600 dark:text-blue-400">App!</span></h2>
+
+                <p class="mt-4 text-sm text-gray-500 dark:text-gray-400 lg:text-base">
+                Estamos emocionados de anunciar que nuestra app ya está disponible para descarga. Con nuestra app, tendrás acceso a características exclusivas, actualizaciones en tiempo real, y una experiencia de usuario mejorada. ¡No te pierdas nada y lleva nuestro servicio siempre contigo!
+
+Beneficios de nuestra App:
+Notificaciones instantáneas sobre las últimas novedades y promociones.
+Acceso rápido a tus funciones y contenidos favoritos.
+Interfaz optimizada para una navegación más fácil y rápida.
+Soporte al cliente más eficiente y directo.
+                </p>
+
+                <div class="flex flex-col mt-6 space-y-3 lg:space-y-0 lg:flex-row">
+                    <a href="#" class="block px-5 py-2 text-sm font-medium tracking-wider text-center text-white transition-colors duration-300 transform bg-gray-900 rounded-md hover:bg-gray-700">Descagar</a> 
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full h-64 lg:w-1/2 lg:h-auto">
+            <div class="w-full h-full bg-cover" style={{ backgroundImage: 'url(https://img.freepik.com/vector-gratis/cover-aplicacion-movil-plana_52683-6715.jpg?t=st=1717637551~exp=1717641151~hmac=8052953da8293c9e440d1a84af88a64bfcd8aa0d98d330ce55be7c0ced74720b&w=826)'}}>
+                <div class="w-full h-full bg-black opacity-25"></div>
+            </div>
+        </div>
+    </div>
+
                 
             <section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-10 mx-auto">
